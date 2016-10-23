@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  overflow: scroll;
+}
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.get-color{
+  position: absolute;
+  top: 2.5%;
+  left: 10%;
+}
+.selected-color{
+  position: absolute;
+  top: 2.5%;
+  left: 60%;
+}
+
+.left{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.svg-get-color {
+  fill-opacity: 1;
+  stroke: #000000;
+  stroke-width: 4;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 1
+}
